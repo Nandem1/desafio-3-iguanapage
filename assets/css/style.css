@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 23px;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+/*.iguanabg {
+    width: 92.5rem;
+}
+*/
+.iguanahomepage {
+    background-image: url('/assets/img/bg-header.jpg');
+    background-color: #1E1A13;
+    background-size: cover;
+    /*width: 1481px;*/
+    height: 727px;
+}
+
+.contenido1 {
+    float: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.text1 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: 3rem;
+    margin-left: 8rem;
+}
+
+.contenido1 span p {
+    padding: 0 20px;
+}
+
+.iguana1 {
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.fotoiguana1 {
+    width: 28rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.contenido2 {
+    background-color: #1E1A13;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    padding-bottom: 4rem;
+}
+
+.contenido2 h2 {
+    background-color: #1E1A13;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.contenido2 span {
+    background-color: #1E1A13;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-right: 2.4rem;
+    padding-left: 6.6rem;
+}
+
+.contenido2 i {
+    font-size: 2rem;
+}
+
+.contenido2 span, i, .contenido2p {
+    background-color: #1E1A13;
+    margin: 0.5rem;
+}
+
+.contenido3 span img {
+    width: 20rem;
+    height: 12rem;
+    margin-right: 0.7rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    object-fit: cover;
+}
+
+.contenido3 {
+    margin-left: 15rem;
+}
+
+footer p {
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    letter-spacing: 0.1rem;
+}
+
+footer p a {
+    text-decoration: none;
+    background-color: #1E1A13;
+}
+
+footer a:hover {
+    color: lightseagreen;
+}
